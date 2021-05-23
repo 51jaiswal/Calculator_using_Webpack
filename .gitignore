@@ -1,7 +1,6 @@
 # Don't commit system files or dependencies
 *.DS_Store
 node_modules/
-package-lock.json
 
 # Jekyll
 _site
@@ -26,5 +25,5 @@ doc/
 .idea
 .secret
 
-
+README.md
 node_modules
