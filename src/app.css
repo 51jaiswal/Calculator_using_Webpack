@@ -1,3 +1,16 @@
+
+ body {
+    background-color: rgb(90, 143, 143);
+    /* justify-content: center; */
+}
+.heading{
+   font-size: 9.5vh;
+    text-align: center;
+    position: absolute;
+    margin-top: -670px;
+    background-color: aliceblue;
+    width: 70vh;
+}
 .App{
     display: flex;
     justify-content: center;

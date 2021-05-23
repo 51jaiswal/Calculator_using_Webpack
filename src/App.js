@@ -60,8 +60,8 @@ class App extends Component {
         }
         else if(this.state.operator=="multiply"){
             this.setState({
-                input:parseInt(this.state.previousNumber)*
-                parseInt(this.state.currentNumber)
+                input:(this.state.previousNumber)*
+               (this.state.currentNumber)
             })
         }
         else if(this.state.operator=="divide"){
@@ -79,7 +79,11 @@ class App extends Component {
     }
   render() {
     return (
+        
       <div styleName="App">
+          <div styleName="heading">
+            My Calculator
+        </div>
         <div styleName="calc-wrapper">
             <div styleName="row">
                 <Input>{this.state.input}</Input>
